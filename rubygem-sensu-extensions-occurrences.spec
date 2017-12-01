@@ -2,8 +2,8 @@
 %global gem_name sensu-extensions-occurrences
 
 Name:           rubygem-%{gem_name}
-Version:        1.1.0
-Release:        2%{?dist}
+Version:        1.2.0
+Release:        1%{?dist}
 Summary:        The Sensu Core built-in occurrences filter
 Group:          Development/Languages
 License:        MIT
@@ -90,6 +90,9 @@ popd
 %doc %{gem_instdir}/README.md
 
 %changelog
+* Fri Dec 1 2017 Martin Mágr <mmagr@redhat.com> - 1.2.0-1
+- Rebased to latest release for Sensu 1.1.x rebase
+
 * Fri Dec 23 2016 Martin Mágr <mmagr@redhat.com> - 1.0.0-2
 - Fixed summary and description
 
